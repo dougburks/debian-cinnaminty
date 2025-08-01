@@ -26,7 +26,7 @@ echo "#########################################################"
 echo "Installing new packages"
 echo "#########################################################"
 echo
-sudo apt -y install bibata-cursor-theme binutils btop chromium curl git gimp golang gvfs-backends htop iperf3 keepassxc openvpn pdftk-java python-is-python3 vim wget xdotool
+sudo apt -y install bibata-cursor-theme binutils btop chromium curl fastfetch git gimp golang gvfs-backends htop iperf3 keepassxc openvpn pdftk-java python-is-python3 vim wget xdotool
 
 echo
 echo "#########################################################"
