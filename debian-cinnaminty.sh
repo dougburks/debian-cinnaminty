@@ -56,11 +56,11 @@ Installing new themes
 EOF
 MINTLIST="/etc/apt/sources.list.d/mint.list"
 MINTKEY="linuxmint-keyring_2022.06.21_all.deb"
-URL="http://packages.linuxmint.com/pool/main/l/linuxmint-keyring/$MINTKEY"
+MINTURL="http://packages.linuxmint.com/pool/main/l/linuxmint-keyring/$MINTKEY"
 echo
 echo "Temporarily adding the following repo:"
 echo "deb http://packages.linuxmint.com virginia main" | sudo tee -a $MINTLIST
-wget -q $URL
+wget -q $MINTURL
 echo
 sudo dpkg -i $MINTKEY
 echo
