@@ -5,7 +5,7 @@ cat << EOF
 #########################################################
 This script will turn Debian 13 Cinnamon into Cinnaminty.
 
-I got a fever and the only prescription is more mint!
+Now with more minty freshness!
 
 Press Enter to continue or Ctrl-c to cancel.
 #########################################################
@@ -36,7 +36,7 @@ That's better! Now let's install some new packages
 EOF
 echo
 sudo apt update
-sudo DEBIAN_FRONTEND=noninteractive apt -y install bibata-cursor-theme binutils btop chromium curl git gimp golang gvfs-backends htop iperf3 keepassxc openvpn pdftk-java python-is-python3 python3-terminaltexteffects screenfetch vim wget xdotool
+sudo DEBIAN_FRONTEND=noninteractive apt -y install bibata-cursor-theme binutils btop chromium curl git gimp golang gvfs-backends htop iperf3 keepassxc openvpn pdftk-java python-is-python3 screenfetch vim wget xdotool
 
 echo
 cat << EOF | tte print
