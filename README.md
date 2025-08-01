@@ -31,4 +31,4 @@ bash debian-cinnaminty.sh
 
 - Is this related to Security Onion?
 
-No, this script is not really related to Security Onion. Although it is intended to provide a general desktop environment and you could, of course, use the Chromium web browser to connect to a Security Onion deployment.
+No, this script is not really related to Security Onion, it is intended to provide a general desktop environment. Of course, you could use the Chromium web browser to connect to your Security Onion deployment.
