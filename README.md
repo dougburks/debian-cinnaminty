@@ -5,7 +5,7 @@ This is my own personal script for making Debian 13 Cinnamon a little more like 
 This script assumes the following requirements:
 - Debian 13 Cinnamon
 - user account with sudo privileges
-- Internet access
+- ability to connect to Github and package repos
   
 # Warning
 This script is totally unsupported. If it breaks your system, you get to keep both pieces!
