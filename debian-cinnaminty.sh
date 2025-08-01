@@ -65,7 +65,7 @@ echo
 sudo dpkg -i $MINTKEY
 echo
 sudo rm -f $MINTKEY
-sudo apt update && sudo apt install mint-themes
+sudo apt update && sudo apt -y install mint-themes
 echo
 sudo rm -f $MINTLIST
 sudo apt update
