@@ -58,19 +58,27 @@ echo
 sudo apt -y purge linuxmint-keyring
 
 echo
-echo "#########################################################"
-echo "Installing all updates"
-echo "#########################################################"
+cat << EOF | tte slide --merge
+#########################################################
+Installing all updates
+#########################################################
+EOF
 echo
 sudo apt -y dist-upgrade
 
 echo
-echo "#########################################################"
-echo "Installation complete!"
-echo
+cat << EOF | tte slide --merge
+#########################################################
+Installation complete!
+#########################################################
+EOF
+
 screenfetch -N | tte slide --merge
-echo
-echo "Press Enter to reboot or Ctrl-c to cancel."
-echo "#########################################################"
+
+cat << EOF | tte slide --merge
+#########################################################
+Press Enter to reboot or Ctrl-c to cancel.
+#########################################################
+EOF
 read input
 sudo reboot
