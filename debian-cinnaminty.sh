@@ -46,7 +46,7 @@ Removing unnecessary packages
 EOF
 echo
 sudo apt -y purge brasero firefox* thunderbird firefox* gnome-chess gnome-games goldendict-ng hexchat hoichess remmina thunderbird transmission*
-sudo apt autoremove
+sudo apt -y autoremove
 
 echo
 cat << EOF | tte print
