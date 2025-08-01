@@ -66,11 +66,10 @@ echo
 sudo apt -y dist-upgrade
 
 echo
-fastfetch
-
-echo
 echo "#########################################################"
 echo "Installation complete!"
+echo
+fastfetch
 echo
 echo "Press Enter to reboot or Ctrl-c to cancel."
 echo "#########################################################"
