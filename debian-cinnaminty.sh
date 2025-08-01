@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo
+clear
 echo "#########################################################"
 echo "This script will turn Debian 13 Cinnamon into Cinnaminty."
 echo
@@ -15,7 +15,7 @@ if ! grep -q "13 (trixie)" /etc/os-release; then
 	exit 1
 fi
 
-echo
+clear
 echo "#########################################################"
 echo "Installing new packages"
 echo "#########################################################"
