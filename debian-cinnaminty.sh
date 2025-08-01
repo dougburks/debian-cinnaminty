@@ -90,6 +90,7 @@ EOF
 
 echo
 screenfetch -N | tte slide --merge
+echo
 
 cat << EOF | tte print
 #########################################################
