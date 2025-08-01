@@ -15,31 +15,30 @@ if ! grep -q "13 (trixie)" /etc/os-release; then
 	exit 1
 fi
 
-echo "#########################################################"
-echo "Updating repo info"
-echo "#########################################################"
-echo
-sudo apt update
-
 echo
 echo "#########################################################"
 echo "Installing new packages"
 echo "#########################################################"
 echo
-sudo apt -y install bibata-cursor-theme binutils btop chromium curl fastfetch git gimp golang gvfs-backends htop iperf3 keepassxc openvpn pdftk-java python-is-python3 vim wget xdotool
+sudo apt update
+sudo apt -y install bibata-cursor-theme binutils btop chromium curl git gimp golang gvfs-backends htop iperf3 keepassxc openvpn pdftk-java python-is-python3 python3-terminaltexteffects screenfetch vim wget xdotool
 
 echo
-echo "#########################################################"
-echo "Removing unnecessary packages"
-echo "#########################################################"
+cat << EOF | tte slide --merge
+#########################################################
+Removing unnecessary packages
+#########################################################
+EOF
 echo
 sudo apt -y purge brasero firefox* thunderbird firefox* gnome-chess gnome-games goldendict-ng hexchat hoichess remmina thunderbird transmission*
 sudo apt autoremove
 
 echo
-echo "#########################################################"
-echo "Installing new themes"
-echo "#########################################################"
+cat << EOF | tte slide --merge
+#########################################################
+Installing new themes
+#########################################################
+EOF
 MINTLIST="/etc/apt/sources.list.d/mint.list"
 MINTKEY="linuxmint-keyring_2022.06.21_all.deb"
 URL="http://packages.linuxmint.com/pool/main/l/linuxmint-keyring/$MINTKEY"
@@ -69,7 +68,7 @@ echo
 echo "#########################################################"
 echo "Installation complete!"
 echo
-fastfetch
+screenfetch -N | tte slide --merge
 echo
 echo "Press Enter to reboot or Ctrl-c to cancel."
 echo "#########################################################"
