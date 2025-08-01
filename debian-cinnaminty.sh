@@ -16,8 +16,16 @@ if ! grep -q "13 (trixie)" /etc/os-release; then
 fi
 
 clear
+
 echo "#########################################################"
-echo "Installing new packages"
+echo "First, we need some more color!"
+echo "#########################################################"
+echo
+sudo apt update
+sudo apt -y install python3-terminaltexteffects
+
+echo "#########################################################"
+echo "That's better! Now let's install some new packages"
 echo "#########################################################"
 echo
 sudo apt update
@@ -73,6 +81,7 @@ Installation complete!
 #########################################################
 EOF
 
+echo
 screenfetch -N | tte slide --merge
 
 cat << EOF | tte slide --merge
