@@ -66,6 +66,9 @@ echo
 sudo apt -y dist-upgrade
 
 echo
+fastfetch
+
+echo
 echo "#########################################################"
 echo "Installation complete!"
 echo
