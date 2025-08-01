@@ -71,9 +71,9 @@ sudo rm -f $MINTLIST
 sudo apt update
 echo
 sudo apt -y purge linuxmint-keyring
-dconf write /org/gnome/desktop/interface/cursor-theme "'Bibata-Modern-Classic'"
-dconf write /org/gnome/desktop/interface/gtk-theme "'Mint-Y-Dark-Aqua'"
-dconf write /org/gnome/desktop/interface/icon-theme "'Mint-Y-Sand'"
+dconf write /org/cinnamon/desktop/interface/cursor-theme "'Bibata-Modern-Classic'"
+dconf write /org/cinnamon/desktop/interface/gtk-theme "'Mint-Y-Dark-Aqua'"
+dconf write /org/cinnamon/desktop/interface/icon-theme "'Mint-Y-Sand'"
 dconf write /org/cinnamon/theme/name "'Mint-Y-Dark-Aqua'"
 
 echo
