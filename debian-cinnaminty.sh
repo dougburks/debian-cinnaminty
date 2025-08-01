@@ -1,13 +1,15 @@
 #!/bin/bash
 
 clear
-echo "#########################################################"
-echo "This script will turn Debian 13 Cinnamon into Cinnaminty."
-echo
-echo "I got a fever and the only prescription is more mint!"
-echo
-echo "Press Enter to continue or Ctrl-c to cancel."
-echo "#########################################################"
+cat << EOF
+#########################################################
+This script will turn Debian 13 Cinnamon into Cinnaminty.
+
+I got a fever and the only prescription is more mint!
+
+Press Enter to continue or Ctrl-c to cancel.
+#########################################################
+EOF
 read input
 
 if ! grep -q "13 (trixie)" /etc/os-release; then
@@ -17,9 +19,11 @@ fi
 
 clear
 
-echo "#########################################################"
-echo "First, we need some more color!"
-echo "#########################################################"
+cat << EOF
+#########################################################
+First, we need some more color!
+#########################################################
+EOF
 echo
 sudo apt update
 sudo apt -y install python3-terminaltexteffects
