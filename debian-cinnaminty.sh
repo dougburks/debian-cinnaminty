@@ -75,7 +75,7 @@ sudo apt -y purge linuxmint-keyring
 echo
 cat << EOF | tte print
 #########################################################
-Installing new themes
+Setting Cinnamon theme
 #########################################################
 EOF
 dconf write /org/cinnamon/theme/name "'Mint-Y-Dark-Aqua'"
