@@ -25,7 +25,7 @@ sudo apt update
 sudo apt -y install python3-terminaltexteffects
 
 echo
-cat << EOF | tte slide --merge
+cat << EOF | tte print
 #########################################################
 That's better! Now let's install some new packages
 #########################################################
@@ -35,7 +35,7 @@ sudo apt update
 sudo apt -y install bibata-cursor-theme binutils btop chromium curl git gimp golang gvfs-backends htop iperf3 keepassxc openvpn pdftk-java python-is-python3 python3-terminaltexteffects screenfetch vim wget xdotool
 
 echo
-cat << EOF | tte slide --merge
+cat << EOF | tte print
 #########################################################
 Removing unnecessary packages
 #########################################################
@@ -45,7 +45,7 @@ sudo apt -y purge brasero firefox* thunderbird firefox* gnome-chess gnome-games 
 sudo apt autoremove
 
 echo
-cat << EOF | tte slide --merge
+cat << EOF | tte print
 #########################################################
 Installing new themes
 #########################################################
@@ -69,7 +69,7 @@ echo
 sudo apt -y purge linuxmint-keyring
 
 echo
-cat << EOF | tte slide --merge
+cat << EOF | tte print
 #########################################################
 Installing all updates
 #########################################################
@@ -78,16 +78,16 @@ echo
 sudo apt -y dist-upgrade
 
 echo
-cat << EOF | tte slide --merge
+cat << EOF | tte print
 #########################################################
 Installation complete!
 #########################################################
 EOF
 
 echo
-screenfetch -N | tte print
+screenfetch -N | tte slide --merge
 
-cat << EOF | tte slide --merge
+cat << EOF | tte print
 #########################################################
 Press Enter to reboot or Ctrl-c to cancel.
 #########################################################
