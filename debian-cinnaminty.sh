@@ -76,6 +76,7 @@ dconf write /org/cinnamon/desktop/interface/cursor-theme "'Bibata-Modern-Classic
 dconf write /org/cinnamon/desktop/interface/gtk-theme "'Mint-Y-Dark-Aqua'"
 dconf write /org/cinnamon/desktop/interface/icon-theme "'Mint-Y-Sand'"
 dconf write /org/cinnamon/desktop/background/picture-uri "'file:///usr/share/backgrounds/gnome/sheet-l.jxl'"
+dconf write /org/cinnamon/alttab-switcher-style "'coverflow'"
 
 echo
 cat << EOF | tte print
