@@ -1,3 +1,4 @@
+# Overview
 This is my own personal script for making Debian 13 Cinnamon a little more like Linux Mint. It is my opiniated take on a desktop environment that balances the ideals of productivity, efficiency, and beauty.
 
 # Requirements
@@ -8,7 +9,7 @@ This script assumes the following requirements:
 # Warning
 This script is totally unsupported. If it breaks your system, you get to keep both pieces!
 
-# Overview
+# Installation
 1. Download Debian 13 Cinnamon Live ISO image.
 2. Boot into live environment.
 3. Use the desktop shortcut to install Debian 13 Cinnamon.
