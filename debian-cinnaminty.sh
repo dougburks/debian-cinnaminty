@@ -85,7 +85,7 @@ Installation complete!
 EOF
 
 echo
-screenfetch -N | tte slide --merge
+screenfetch -N | tte print
 
 cat << EOF | tte slide --merge
 #########################################################
