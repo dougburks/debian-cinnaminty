@@ -71,11 +71,53 @@ sudo rm -f $MINTLIST
 sudo apt update
 echo
 sudo apt -y purge linuxmint-keyring
+
+echo
+cat << EOF | tte print
+#########################################################
+Installing new themes
+#########################################################
+EOF
 dconf write /org/cinnamon/theme/name "'Mint-Y-Dark-Aqua'"
+
+echo
+cat << EOF | tte print
+#########################################################
+Setting cursor theme
+#########################################################
+EOF
 dconf write /org/cinnamon/desktop/interface/cursor-theme "'Bibata-Modern-Classic'"
+
+echo
+cat << EOF | tte print
+#########################################################
+Setting GTK theme
+#########################################################
+EOF
 dconf write /org/cinnamon/desktop/interface/gtk-theme "'Mint-Y-Dark-Aqua'"
+
+echo
+cat << EOF | tte print
+#########################################################
+Setting icon theme
+#########################################################
+EOF
 dconf write /org/cinnamon/desktop/interface/icon-theme "'Mint-Y-Sand'"
+
+echo
+cat << EOF | tte print
+#########################################################
+Setting wallpaper
+#########################################################
+EOF
 dconf write /org/cinnamon/desktop/background/picture-uri "'file:///usr/share/backgrounds/gnome/sheet-l.jxl'"
+
+echo
+cat << EOF | tte print
+#########################################################
+Setting alttab switcher style
+#########################################################
+EOF
 dconf write /org/cinnamon/alttab-switcher-style "'coverflow'"
 
 echo
