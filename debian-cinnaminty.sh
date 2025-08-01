@@ -21,7 +21,7 @@ clear
 
 cat << EOF
 #########################################################
-First, we need some more color!
+First, this terminal needs more color!
 #########################################################
 EOF
 echo
