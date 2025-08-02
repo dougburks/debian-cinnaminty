@@ -1,5 +1,5 @@
 # Overview
-This is my own personal script for making Debian 13 Cinnamon a little more like Linux Mint. It is my opiniated take on a desktop environment that balances the ideals of productivity, efficiency, and beauty.
+This is my own personal script for making Debian 13 Cinnamon a little more like Linux Mint and installing some of my personal favorite apps. It is my opiniated take on a desktop environment that balances the ideals of productivity, efficiency, and beauty.
 
 # Requirements
 This script assumes the following requirements:
