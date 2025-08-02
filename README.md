@@ -3,7 +3,7 @@ This is my own personal script for making Debian 13 Cinnamon a little more like 
 
 # Requirements
 This script assumes the following requirements:
-- Debian 13 Cinnamon
+- Debian 13 with Cinnamon desktop
 - user account with sudo privileges
 - ability to connect to Github and package repos
   
