@@ -12,16 +12,16 @@ This script is totally unsupported. If it breaks your system, you get to keep bo
 
 # Installation
 1. Download Debian 13 Cinnamon Live ISO image and install.
-1. Reboot into your newly installed Debian 13 Cinnamon installation.
-1. Download the script and review it (don't just blindly pipe it into bash):
+2. Reboot into your newly installed Debian 13 Cinnamon installation.
+3. Download the script and review it (don't just blindly pipe it into bash):
 ```
 curl -O https://raw.githubusercontent.com/dougburks/debian-cinnaminty/refs/heads/main/debian-cinnaminty.sh
 ```
-1. Run the script:
+4. Run the script:
 ```
 bash debian-cinnaminty.sh
 ```
-1. Enjoy your new Debian Cinnaminty desktop!
+5. Enjoy your new Debian Cinnaminty desktop!
 
 # FAQ
 
