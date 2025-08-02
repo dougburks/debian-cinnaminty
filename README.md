@@ -25,13 +25,9 @@ bash debian-cinnaminty.sh
 
 # FAQ
 
-## Why not use Linux Mint?
+## Why not use Linux Mint or Linux Mint Debian Edition (LMDE)?
 
-Linux Mint is based on Ubuntu and I'd rather use Debian.
-
-## Why not use Linx Mint Debian Edition (LMDE)?
-
-I want to be able to take Proxmox (based on Debian), add the Cinnamon desktop, and then use this script to make it more minty.
+I want to be able to take Proxmox (or other Debian-based distros), add the Cinnamon desktop, and then use this script to make it more minty.
 
 ## But why though?
 
@@ -39,4 +35,4 @@ Because I can!
 
 ## Is this related to Security Onion?
 
-No, this script is not really related to Security Onion, it is intended to provide a general desktop environment. Of course, you could use the Chromium web browser to connect to your Security Onion deployment.
+No, this script is not really related to Security Onion. Debian-cinnaminty is intended to provide a general desktop environment. Of course, you could use the included Chromium web browser to connect to your Security Onion Console!
