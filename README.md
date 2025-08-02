@@ -11,21 +11,17 @@ This script assumes the following requirements:
 This script is totally unsupported. If it breaks your system, you get to keep both pieces!
 
 # Installation
-1. Download Debian 13 Cinnamon Live ISO image.
-2. Boot into live environment.
-3. Use the desktop shortcut to install Debian 13 Cinnamon.
-4. Reboot into your newly installed Debian 13 Cinnamon installation.
-5. Download the script:
+1. Download Debian 13 Cinnamon Live ISO image and install.
+1. Reboot into your newly installed Debian 13 Cinnamon installation.
+1. Download the script and review it (don't just blindly pipe it into bash):
 ```
-wget https://raw.githubusercontent.com/dougburks/debian-cinnaminty/refs/heads/main/debian-cinnaminty.sh
+curl -O https://raw.githubusercontent.com/dougburks/debian-cinnaminty/refs/heads/main/debian-cinnaminty.sh
 ```
-6. Review the script.
-7. Run the script:
+1. Run the script:
 ```
 bash debian-cinnaminty.sh
 ```
-8. When the script is complete, it will prompt to reboot.
-9. Enjoy your new Debian Cinnaminty desktop!
+1. Enjoy your new Debian Cinnaminty desktop!
 
 # FAQ
 
