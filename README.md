@@ -28,3 +28,11 @@ bash debian-cinnaminty.sh
 - Is this related to Security Onion?
 
 No, this script is not really related to Security Onion, it is intended to provide a general desktop environment. Of course, you could use the Chromium web browser to connect to your Security Onion deployment.
+
+- Why not use Linux Mint?
+
+Linux Mint is based on Ubuntu and I'd rather use Debian.
+
+- Why not use Linx Mint Debian Edition (LMDE)?
+
+Linux Mint does not support ARM architecture but Debian does.
