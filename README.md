@@ -2,7 +2,7 @@
 This is my own personal script for making Debian 13 Cinnamon a little more like Linux Mint and installing some of my personal favorite apps. It is my opiniated take on a desktop environment that balances the ideals of productivity, efficiency, and beauty.
 
 # Requirements
-This script assumes the following requirements:
+This script requires the following:
 - Debian 13 with Cinnamon desktop
 - user account with sudo privileges
 - ability to connect to Github and package repos
@@ -11,7 +11,7 @@ This script assumes the following requirements:
 This script is totally unsupported. If it breaks your system, you get to keep both pieces!
 
 # Installation
-1. In your Debian 13 Cinnamon desktop, download the script and review it (don't just blindly pipe it into bash):
+1. In your Debian 13 Cinnamon desktop, download and review the script (don't just blindly pipe it into bash):
 ```
 curl -O https://raw.githubusercontent.com/dougburks/debian-cinnaminty/refs/heads/main/debian-cinnaminty.sh
 ```
