@@ -11,23 +11,21 @@ This script assumes the following requirements:
 This script is totally unsupported. If it breaks your system, you get to keep both pieces!
 
 # Installation
-1. Download Debian 13 Cinnamon Live ISO image and install.
-2. Reboot into your newly installed Debian 13 Cinnamon installation.
-3. Download the script and review it (don't just blindly pipe it into bash):
+1. In your Debian 13 Cinnamon desktop, download the script and review it (don't just blindly pipe it into bash):
 ```
 curl -O https://raw.githubusercontent.com/dougburks/debian-cinnaminty/refs/heads/main/debian-cinnaminty.sh
 ```
-4. Run the script:
+2. Run the script:
 ```
 bash debian-cinnaminty.sh
 ```
-5. Enjoy your new Debian Cinnaminty desktop!
+3. Enjoy your new Debian Cinnaminty desktop!
 
 # FAQ
 
 ## Why not use Linux Mint or Linux Mint Debian Edition (LMDE)?
 
-I want to be able to take Proxmox (or other Debian-based distros), add the Cinnamon desktop, and then use this script to make it more minty.
+I want to be able to take Debian 13 derivatives (like Proxmox 9), add the Cinnamon desktop, and then use this script to make it more minty.
 
 ## But why though?
 
